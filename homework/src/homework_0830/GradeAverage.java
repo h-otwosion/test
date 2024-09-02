@@ -26,7 +26,7 @@ public class GradeAverage {
 		int[] scores = new int[std];
 		System.out.printf("%d 명의 성적 : ", std);
 		for (int i = 0; i < scores.length; i++) {
-			scores[i] = sc.nextInt(); //띄어쓰기 하나당 점수 하나
+			scores[i] = sc.nextInt(); //띄어쓰기 하나당 점수 하나 받기
 		}
 		return scores;
 	}
